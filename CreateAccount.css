@@ -1,29 +1,25 @@
 /* BASIC */
 
 html {
-    background-color: #56baed;
+    background-color:#021b27;
   }
   
   body {
     font-family: "Poppins", sans-serif;
     height: 100vh;
+    background: url(bg-image.jpg) no-repeat, linear-gradient(black,white), rgba(0, 0, 255,0.1);
+    background-size: cover;
+    
+    
   }
   
-  a {
-    color: #92badd;
-    display:inline-block;
-    text-decoration: none;
-    font-weight: 400;
-  }
   
   h2 {
     text-align: center;
-    font-size: 16px;
-    font-weight: 600;
-    text-transform: uppercase;
-    display:inline-block;
-    margin: 40px 8px 10px 8px; 
-    color: #cccccc;
+    font-size: 18px;
+    color:rgb(36, 32, 32);
+    font-weight: bold;
+    
   }
   
   
@@ -38,14 +34,16 @@ html {
     width: 100%;
     min-height: 100%;
     padding: 20px;
+    
   }
+  
   
   #formContent {
     -webkit-border-radius: 10px 10px 10px 10px;
     border-radius: 10px 10px 10px 10px;
     background: #fff;
     padding: 30px;
-    width: 90%;
+    width: 100%;
     max-width: 450px;
     position: relative;
     padding: 0px;
@@ -61,6 +59,7 @@ html {
     text-align: center;
     -webkit-border-radius: 0 0 10px 10px;
     border-radius: 0 0 10px 10px;
+  
   }
   
   
@@ -248,8 +247,17 @@ html {
     width: 100%;
   }
   
+  #login
+  {
+    margin-top: 10px;
+    margin-bottom:20px
+  }
   
-  
+  #password
+  {
+   margin-bottom: 20px; 
+  }
+
   /* OTHERS */
   
   *:focus {
@@ -259,4 +267,4 @@ html {
   #icon {
     width:60%;
   }
-  
+ 
